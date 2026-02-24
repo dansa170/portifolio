@@ -195,9 +195,9 @@ nav a:hover::after{
     box-shadow: 0 10px 25px rgba(0,0,0,0.08);
     text-align: center;
     transition: all 0.3s ease;
-       display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .project-card:hover{
@@ -206,9 +206,6 @@ nav a:hover::after{
     border: 1px solid #00bcd4;
 }
 .project-card a{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
     margin-top:15px;
     padding:10px 20px;
     background: #0f172a;
@@ -329,3 +326,4 @@ nav a:hover::after{
     }
 
 }
+
